@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/* -----------------------------------------------
+*  Code for player movement -- https://github.com/Firnox/Asteroids
+*  -----------------------------------------------
+*/
+
 public class Player : MonoBehaviour
 {
     [Header("Ship parameters")]

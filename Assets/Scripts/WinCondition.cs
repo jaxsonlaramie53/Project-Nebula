@@ -11,7 +11,5 @@ public class WinCondition : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         winScreen.SetActive(true);
-
-        Debug.Log(collision.gameObject.name);
     }
 }
